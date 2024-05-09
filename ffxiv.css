@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Peut-on mettre plusieurs balise margin et padding avec la même valeur sur une page CSS? */
+
+body {
+    font-family: Arial, Verdana, sans-serif, "メイリオ", Meiryo, "Hiragino Sans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "FFXIV_Lodestone_SSF";
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Ici, il semble qu'il manque un sélecteur pour ces règles CSS */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header ul li a:hover {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer ul li a:hover {
+    color: #666;
+}
